@@ -41,7 +41,7 @@ class BinSearchProvider(NZBProvider):
         # URLs
         self.url = 'https://www.binsearch.info'
         self.urls = {
-            'search': urljoin(self.url, 'index.php'),
+            'search': urljoin(self.url, 'search'),
             'rss': urljoin(self.url, 'browse.php'),
         }
 
